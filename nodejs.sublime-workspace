@@ -1,0 +1,1067 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"print",
+				"print	keyword"
+			],
+			[
+				"path",
+				"path	starimportmodule"
+			],
+			[
+				"di",
+				"DictType	statement"
+			],
+			[
+				"sub",
+				"subn	function"
+			],
+			[
+				"Pyto",
+				"Python3"
+			],
+			[
+				"input",
+				"input.redis	input file"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"types",
+				"type〔class〕"
+			],
+			[
+				"http",
+				"http.request(options, cb);"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"filt",
+				"filter.date	filter-date"
+			],
+			[
+				"in",
+				"included	target included file"
+			],
+			[
+				"pat",
+				"pattern.file	file pattern"
+			],
+			[
+				"pa",
+				"pattern.standard	standard pattern"
+			],
+			[
+				"app",
+				"appender.stdout	ConsoleAppender"
+			],
+			[
+				"roll",
+				"rollingFile"
+			],
+			[
+				"file",
+				"FileAppender"
+			],
+			[
+				"appender",
+				"ConsoleAppender"
+			],
+			[
+				"outpu",
+				"output.stdout	output-stdout"
+			],
+			[
+				"oup",
+				"output.stdout	output-stdout"
+			],
+			[
+				"output",
+				"output.stdout	input-stdout"
+			],
+			[
+				"if",
+				"if.notin"
+			],
+			[
+				"filter",
+				"filter.mutate	filter-mutate"
+			],
+			[
+				"cu",
+				"str.cutAllLeft"
+			],
+			[
+				"foo",
+				"foo	test"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "nodejs.py",
+			"settings":
+			{
+				"buffer_size": 3158,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mysign.py123",
+			"settings":
+			{
+				"buffer_size": 9933,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"last_filter": "python",
+		"selected_items":
+		[
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"pyton",
+				"Set Syntax: Python"
+			],
+			[
+				"logsta",
+				"Set Syntax: Logstash"
+			],
+			[
+				"indent",
+				"Indent JSON"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"gist",
+				"Gist: Open Gist"
+			],
+			[
+				"packageview",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"package add",
+				"Package Control: Add Repository"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"indent js",
+				"Indent JSON"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"bui",
+				"Build: Build"
+			],
+			[
+				"build",
+				"Build: Build"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":0",
+				":0 - BOF"
+			],
+			[
+				":$",
+				":$ - EOF"
+			],
+			[
+				"pcakge list",
+				"Package Control: List Packages"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"logst",
+				"Set Syntax: Logstash"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"scope",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"logba",
+				"Set Syntax: Logback"
+			],
+			[
+				"git",
+				"Github: Create Pull Request"
+			],
+			[
+				"logback",
+				"Set Syntax: Logback"
+			],
+			[
+				"aaa conver",
+				"z:AAAPackageDev: Convert (YAML, JSON, PList) to…"
+			],
+			[
+				"show",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"scope hun",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"sc",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"scop",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"aaa con",
+				"z:AAAPackageDev: Convert (YAML, JSON, PList) to…"
+			],
+			[
+				"log",
+				"Set Syntax: Logstash"
+			],
+			[
+				"uuid",
+				"Generate UUID v4"
+			],
+			[
+				"uu",
+				"Build: Build"
+			],
+			[
+				"aaa conv",
+				"z:AAAPackageDev: Convert (YAML, JSON, PList) to…"
+			],
+			[
+				"INTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"aaa convert",
+				"z:AAAPackageDev: Convert (YAML, JSON, PList) to…"
+			],
+			[
+				"convert AAA",
+				"z:AAAPackageDev: Convert to YAML and Rearrange Syntax Definition"
+			],
+			[
+				"aa",
+				"z:AAAPackageDev: Convert (YAML, JSON, PList) to…"
+			],
+			[
+				"AA",
+				"z:AAAPackageDev: Convert (YAML, JSON, PList) to…"
+			],
+			[
+				"uui",
+				"Generate UUID v4"
+			],
+			[
+				"isntal",
+				"Package Control: Install Package"
+			],
+			[
+				"logs",
+				"Set Syntax: Logstash"
+			],
+			[
+				"color",
+				"Color Scheme: Editor (pick installed theme)"
+			],
+			[
+				"highlight",
+				"HighlightWords: Highlight Words"
+			],
+			[
+				"hi",
+				"HighlightWords: Highlight Words"
+			],
+			[
+				"save",
+				":w - Save"
+			],
+			[
+				"sni",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"shel",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"user",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"list	",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"ex",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Comment"
+			],
+			[
+				":slid",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				":q",
+				"Set Syntax: SQL"
+			]
+		],
+		"width": 584.0
+	},
+	"console":
+	{
+		"height": 238.0,
+		"history":
+		[
+			"view.show_popup('Hello, <b>World!</b><br><a href=\"moo\">Click Me</a>', on_navigate=print)",
+			"print 'sdlfkj'",
+			"print sdljf",
+			"print \"lskdjf\"",
+			"print \"var %s = require(\\\"%s\\\");\" % ('adf', 'sdflk')",
+			"print \"var %s = require(\\\"%s\\\")\\;\" % ('adf', 'sdflk')",
+			"print \"var %s = require(\\\"%s\\\");\" % ('adf', 'sdflk')",
+			"view.show_popup('Hello, <b>World!</b><br><a href=\"moo\">Click Me</a>', on_navigate=print)",
+			"print(view.syntax)",
+			"print(view)",
+			"print(view.syntax_name(view.sel()[0].begin()))",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/NodeJs"
+	],
+	"file_history":
+	[
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/NodeJs/nodejs.sublime-project",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/MySignaturePlugin/example.py",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/MySignaturePlugin/mysign.py123",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings",
+		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/types.py",
+		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/python3.sublime-build",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/MySignaturePlugin/nodejs.py",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/CodeComplice.sublime-settings",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/CodeComplice/CodeComplice.sublime-settings",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/xinzhao/Downloads/sm_log.json",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/MySignaturePlugin/mysign.py",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/MySignaturePlugin/MySignature.sublime-project",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/macro/move-right.sublime-macro",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/macro/a.sublime-macro",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/macro/move-left.sublime-marco",
+		"/Users/xinzhao/working/sublime/my-snippets.sublime-project",
+		"/Users/xinzhao/working/sublime/my-snippets.sublime-workspace",
+		"/Users/xinzhao/working/life/making/nodejs/g_document/get_html.js",
+		"/Users/xinzhao/Downloads/sm-2015-03-19.log",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/BracketHighlighter/Example.sublime-keymap",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/shell/bash.sublime-completions",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/java/logback/contextName.sublime-snippet",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/Nodejs.sublime-settings",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/xinzhao/working/life/making/nodejs/learnyounode/print_args.js",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/Nodejs/Nodejs.sublime-settings",
+		"/Users/xinzhao/working/life/java_server/logstash-1.4.2/logstash.conf.write-redis",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/java/logback/logback.tmLanguage",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/java/logback/appender.console.sublime-snippet",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/java/logback/pattern.sublime-snippet",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/java/logback/logger.sublime-snippet",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/logstash/input-stdin.sublime-snippet",
+		"/Users/xinzhao/working/life/making/java_example/example/Mk5OrderApplyExampleExtra.java",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/java/logback/logback.JSON-tmLanguage",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/java/logback/pattern.file.sublime-snippet",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/java/logback/included.sublime-snippet",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/Default.sublime-theme",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/biuld/shell_run.sublime-build",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/shell/bash.sublime-snippet",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/java/logback/appender.RollingFileAppender.sublime-snippet",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/java/logback/appender.FileAppender.sublime-snippet",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/logstash/output-elasticsearch.sublime-snippet",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/logstash/lgostash.sublime-completions",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/logstash/input-file.sublime-snippet",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/java/logback/logback.YAML-tmLanguage",
+		"/Users/xinzhao/Downloads/logback.xml",
+		"/Users/xinzhao/working/life/java_server/logstash-1.4.2/logstash.conf.write-es.conf",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/logstash/output-stdout.sublime-snippet",
+		"/Users/xinzhao/working/life/java_server/logstash-1.4.2/logstash.conf.write-es.logstash.conf",
+		"/Users/xinzhao/working/life/java_server/logstash-1.4.2/logstash.conf",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/logstash/filter-grok-tomcat.sublime-snippet",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/logstash/input-stdout.sublime-snippet",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/logstash/filter-grok.sublime-snippet",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/logstash/filter-mutate.sublime-snippet",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/logstash/filter-if.sublime-snippet",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/logstash/filter-date.sublime-snippet",
+		"/Users/xinzhao/working/life/java_server/logstash-1.4.2 2/logstash.conf",
+		"/Users/xinzhao/Downloads/test.sh",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/Users/xinzhao/.Trash/bash.sublime-snippet",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/shell/date_today.sublime-snippet",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/shell/date_yesterday.sublime-snippet",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/biuld/shell_run.sublime-build",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/shell_today.sublime-snippet",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/my sublime/snippet/shell_date_today.sublime-snippet",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/snippet/shell.sublime-snippet",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/snippet/shell"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"dot",
+			"comp",
+			"event",
+			"v.is",
+			"file",
+			"print",
+			"			else:\n				print type(v)",
+			")",
+			"sldf",
+			"type:",
+			"nodedir",
+			"build",
+			"parent",
+			"name=\"http.Server",
+			"name=\"Server",
+			"dealObject",
+			"import types\n\ndir = \"nodejs\"\n\nclass Nodejs():\n	def loadNodejsDocs(self):\n		files = os.listdir(dir)\n		for f in files:\n			print f \n			fi = file(dir + '/' + f)\n			j = json.load(fi)\n			# for a in j['modules'][0]['properties']:\n			# for module in j['modules']:\n			# 	print '+ module name %s' % module['name']\n			# 	for p1 in module:\n			# 		print '++%s.[%s]' % (module['name'] , p1)\n			# 		if p1 in ['classes', 'properties', 'methods']:\n			# 			for p2 in module[p1]:\n			# 				print '+++ %s.%s.[%s]' % (module['name'], p1, p2['name'])\n			# 				if p1 == 'methods':\n			# 					dealMethod(module['name'], p1)\n			self.dealObject(j)\n	def dealArray(self, array):\n		pass\n	def dealObject(self, obj):\n		pass\n			# 		print \"++ %s.%s\" % (module['name'], prop)\n			# 		for p in prop:\n			# 			print \"+++ %s.%s.%s\" % (module['name'], prop, p)\n\n",
+			"dir",
+			"name",
+			"download",
+			"node-event-eventemitter.sublime-snippet\nnode-fs-readdir.sublime-snippet\nnode-http-createServer.sublime-snippet\nnode-https-createServer.sublime-snippet\nnode-https-get.sublime-snippet\nnode-https-request.sublime-snippet",
+			"path",
+			"  #",
+			"#",
+			"  #",
+			"    ",
+			".docx",
+			"-",
+			"-商家网",
+			"通用网址",
+			"app",
+			"	\n	</desciption>",
+			"<<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n	<xml>",
+			"    \n",
+			"inpu",
+			"default",
+			" [\"",
+			"default",
+			"    ",
+			"   ",
+			"  ",
+			"    ",
+			"   ",
+			"  ",
+			"tomcat_log",
+			"beginning",
+			"open_file",
+			" =>",
+			"=>",
+			".\n",
+			"${}",
+			"date",
+			"\\\"\\\\$(",
+			"lsjdf",
+			"sdlfkj",
+			"d",
+			"content",
+			"'",
+			"foobar",
+			"5",
+			"sdf",
+			"move_to",
+			"lkdjsdlfj",
+			"insert",
+			"sldkf",
+			"sldkjf",
+			"sdlfjlk",
+			"sldfj",
+			"alkdjf",
+			"dlfkjsldfkj",
+			"sdlfjlsdkfj",
+			"5",
+			"ssdfl",
+			"seal_log_dir",
+			"alt",
+			"ctrl+space",
+			"ctrl",
+			"space",
+			"completion",
+			"sssdeal_log_dir",
+			"ssssdeal_log_dir",
+			"seal_log_dir",
+			"seal_lo",
+			"seal_log_dir",
+			"FILE_APPENDER",
+			"ref",
+			"rollingPolicy",
+			"RollingPolicy",
+			"rollingPolicy"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "nodejs.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3158,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2867,
+								2867
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1119.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "mysign.py123",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9933,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6082,
+								6082
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2624.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.aaa_package_dev":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 340.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.package_dev":
+	{
+		"height": 100.0
+	},
+	"output.scope_viewer":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "Packages/User/python3.sublime-build",
+	"project": "nodejs.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"node",
+				"nodejs.py"
+			],
+			[
+				"my",
+				"mysign.py123"
+			],
+			[
+				"ht",
+				"nodejs/http.json"
+			],
+			[
+				"http",
+				"nodejs/http.json"
+			],
+			[
+				"mys.py",
+				"mysign.py"
+			],
+			[
+				"a",
+				"macro/a.sublime-macro"
+			],
+			[
+				"file",
+				"javascripting/fileter_array.js"
+			],
+			[
+				"filterd",
+				"snippet/logstash/filter-date.sublime-snippet"
+			],
+			[
+				"root",
+				"snippet/java/logback/root.sublime-snippet"
+			],
+			[
+				"un",
+				"untitled"
+			],
+			[
+				"include",
+				"snippet/java/logback/include.sublime-snippet"
+			],
+			[
+				"patter",
+				"snippet/java/logback/pattern.sublime-snippet"
+			],
+			[
+				"contex",
+				"snippet/java/logback/contextName.sublime-snippet"
+			],
+			[
+				"context",
+				"snippet/java/logback/contextName.sublime-snippet"
+			],
+			[
+				"roo",
+				"snippet/java/logback/root.sublime-snippet"
+			],
+			[
+				"ro",
+				"snippet/java/logback/root.sublime-snippet"
+			],
+			[
+				"logger",
+				"snippet/java/logback/logger.sublime-snippet"
+			],
+			[
+				"comple",
+				"snippet/shell/bash.sublime-completions"
+			],
+			[
+				"bashcom",
+				"snippet/shell/bash.sublime-completions"
+			],
+			[
+				"bashsni",
+				"snippet/shell/bash.sublime-snippet"
+			],
+			[
+				"tod",
+				"snippet/shell/date_today.sublime-snippet"
+			],
+			[
+				"yeste",
+				"snippet/shell/date_yesterday.sublime-snippet"
+			],
+			[
+				"to",
+				"snippet/shell/date_today.sublime-snippet"
+			],
+			[
+				"yes",
+				"snippet/shell/date_yesterday.sublime-snippet"
+			],
+			[
+				"yest",
+				"snippet/shell/date_yesterday.sublime-snippet"
+			],
+			[
+				"today",
+				"snippet/shell/date_today.sublime-snippet"
+			],
+			[
+				"log",
+				"~/Downloads/logback.xml"
+			],
+			[
+				"key",
+				"~/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "sni",
+		"selected_items":
+		[
+			[
+				"sni",
+				"~/working/sublime/my-snippets.sublime-project"
+			],
+			[
+				"sn",
+				"~/working/sublime/my-snippets.sublime-project"
+			],
+			[
+				"",
+				"~/Library/Application Support/Sublime Text 3/Packages/NodeJs/nodejs.sublime-project"
+			],
+			[
+				"snp",
+				"~/working/sublime/my-snippets.sublime-project"
+			],
+			[
+				"snip",
+				"~/working/sublime/my-snippets.sublime-project"
+			],
+			[
+				"sig",
+				"~/Library/Application Support/Sublime Text 3/Packages/MySignaturePlugin/MySignature.sublime-project"
+			],
+			[
+				"sinn",
+				"~/Library/Application Support/Sublime Text 3/Packages/MySignaturePlugin/MySignature.sublime-project"
+			],
+			[
+				"my-sin",
+				"~/working/sublime/my-snippets.sublime-project"
+			],
+			[
+				"my-sn",
+				"~/working/sublime/my-snippets.sublime-project"
+			],
+			[
+				"no",
+				"~/working/life/making/nodejs/nodejs.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 268.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
