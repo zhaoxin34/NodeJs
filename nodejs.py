@@ -3,14 +3,22 @@ import json
 import re
 import sublime_plugin
 from os import path
+from collections import deque
+import sys
+import pprint
 
 NODEDIR = path.dirname(__file__) + "/nodelib"
+NAME_ALIES_FILE = NODEDIR + "/name_alies.txt"
+DEBUG = True
+pp = pprint.PrettyPrinter(indent=4)
 
 
 class Nodejs():
 	def __init__(self):
-		self.data = []
+		self.data = deque()
+		self.nameAlies = None
 		self.loaded = False
+		self.__loadNameAlies()
 
 	def parseNode(self):
 		"""
@@ -18,41 +26,56 @@ class Nodejs():
 		"""
 		files = os.listdir(NODEDIR)
 		for f in files:
-			with open(NODEDIR + "/" + f, 'r') as fi:
+			if not f.endswith('.json'):
+				continue
+			with open(NODEDIR + "/" + f, encoding='UTF-8') as fi:
 				j = json.load(fi)
-				self.dealDict(j, [])
+				self.__dealDict(j)
+
+		self.__dealAliesName(self.data)
+		# modify trigger as trigger\t{parent}.{type}
 		self.loaded = True
+		if self.data:
+			for dic in self.data:
+				dic['trigger'] = "{0}\t{1}.{2}".format(dic['trigger'], dic['parent'], dic['type'])
 		print("nodejs completions loaded")
 
-	def dealDict(self, obj, parent):
+	def __loadNameAlies(self):
+		with open(NAME_ALIES_FILE) as fi:
+			nameAlies = [line.split(',') for line in fi.readlines()]
+			nameAlies = [(x.strip(), y.strip()) for x, y in nameAlies]
+			self.nameAlies = nameAlies
+			# print(self.nameAlies)
+
+	def __dealDict(self, obj, parent=None):
+		if (isinstance(obj, dict) and (
+				'modules' in obj or 'classes' in obj or 'methods'in obj
+				or 'properties' in obj or 'events' in obj)):
+			for k, v in obj.items():
+				if isinstance(v, dict):
+					self.__dealDict(v, obj)
+				elif isinstance(v, list):
+					self.__dealList(v, obj, k)
+				elif isinstance(v, str):
+					# print "%s.%s=%s" % (parent, k, v)
+					pass
+
 		if 'type' in obj and 'name' in obj and 'textRaw' in obj:
-			if obj['type'] == 'modules':
+			if obj['type'] == 'module':
 				self.__dealModule(obj, parent)
-			if obj['type'] == 'methods':
+			if obj['type'] == 'classe':
+				self.__dealClass(obj, parent)
+			if obj['type'] == 'method':
 				self.__dealMethod(obj, parent)
-			if obj['type'] == 'properties':
-				self.__dealProperteis(obj, parent)
-			if obj['type'] == 'events':
+			if obj['type'] == 'propertie':
+				self.__dealProperties(obj, parent)
+			if obj['type'] == 'event':
 				self.__dealEvent(obj, parent)
-			parent.append({'name': obj['name'], 'type': obj['type'], 'textRaw': obj['textRaw']})
-
-		for k, v in obj.items():
-			if isinstance(v, dict):
-				self.dealDict(v, parent)
-			elif isinstance(v, list):
-				self.__dealList(v, parent, k)
-			elif isinstance(v, str):
-				# print "%s.%s=%s" % (parent, k, v)
-				pass
-
-		if 'type' in obj and 'name' in obj and 'textRaw' in obj:
-			parent.pop()
 
 	def __dealList(self, list, parent, type):
 		for v in list:
-			v['type'] = type
 			if isinstance(v, dict):
-				self.dealDict(v, parent)
+				self.__dealDict(v, parent)
 			elif isinstance(v, list):
 				self.__dealList(v, parent)
 			elif isinstance(v, str):
@@ -61,10 +84,15 @@ class Nodejs():
 
 	def __dealModule(self, md, parent):
 		# print("var %s = require(\"%s\");" % (md['name'], md['name']))
+		parentName = 'nodejs'
+		if parent and 'name' in parent:
+			parentName = parent['name']
 		snippets = {
-			"content": "var {0} = requre('{1}');".format(md['name'], md['name']),
+			"content": "var {0} = require('{1}');".format(md['name'], md['name']),
 			"doc": md['desc'],
-			"trigger": "requre{0}".format(md['name'])
+			"trigger": "require{0}".format(md['name']),
+			"type": 'module',
+			"parent": parentName
 		}
 		self.data.append(snippets)
 
@@ -75,18 +103,23 @@ class Nodejs():
 			mname = match.group(1)
 			pname = match.group(2)
 			pnames = re.findall(r'([a-zA-Z_0-9.]+)', pname)
+			pnames2 = ["${{{0}:{1}}}".format(i+1, v) for i, v in enumerate(pnames)]
 			snippets = {
-				"content": "{0}({1}) {{\n\t${{1:content}}\n}}".format(mname, ', '.join(pnames)),
+				"content": "{0}({1})".format(mname, ', '.join(pnames2)),
 				"doc": md['desc'],
-				"trigger": mname
+				"trigger": mname,
+				"type": 'method',
+				"parent": parent['name']
 			}
 			self.data.append(snippets)
 
-	def __dealProperteis(self, md, parent):
+	def __dealProperties(self, md, parent):
 		snippets = {
-			"content": "{0}.{1}".format(parent[-1]['name'], md['name']),
+			"content": "{0}.{1}".format(parent['name'], md['name']),
 			"doc": md['desc'],
-			"trigger": "{0}.{1}".format(parent[-1]['name'], md['name'])
+			"trigger": "{0}.{1}".format(parent['name'], md['name']),
+			"type": 'properties',
+			"parent": parent['name']
 		}
 		self.data.append(snippets)
 
@@ -94,18 +127,46 @@ class Nodejs():
 		eFunc = re.match('<p><code>(.*)</code>', md['desc'])
 		eFunc = eFunc and eFunc.group(1) or 'function() {{}}'
 		snippets = {
-			"content": '{0}.on("{1}", {2});'.format(parent[-1]['name'], md['name'], eFunc),
+			"content": '{0}.on("{1}", {2});'.format(parent['name'], md['name'], eFunc),
 			"doc": md['desc'],
-			"trigger": '{0}.on{1}'.format(parent[-1]['name'], md['name'])
+			"trigger": '{0}.on{1}'.format(parent['name'], md['name']),
+			"type": 'event',
+			"parent": parent['name']
 		}
 		self.data.append(snippets)
 
+	def __dealClass(self, md, parent):
+		snippets = {
+			"content": "{0}".format(md['name']),
+			"doc": md['desc'],
+			"trigger": "{0}".format(md['name']),
+			"type": 'class',
+			"parent": parent['name']
+		}
+		self.data.append(snippets)
+
+	def __dealAliesName(self, snippets):
+		for snippet in snippets:
+			trigger = snippet['trigger']
+			content = snippet['content']
+			for x, y in self.nameAlies:
+				trigger = trigger.replace(x, y)
+				content = content.replace(x, y)
+			snippet['trigger'] = trigger
+			snippet['content'] = content
+		
 nodejs = Nodejs()
+if DEBUG:
+	print("=======" * 20)
+	nodejs.parseNode()
+	for snippets in nodejs.data:
+		pp.pprint(snippets['trigger'])
+		pp.pprint(snippets['content'])
 
 
 class NodejsCompleteListener(sublime_plugin.EventListener):
 	def __isNodeJsView(self, view):
-		return view.settings().get('syntax')
+		return 'nodejs' in view.scope_name(0)
 
 	def on_post_save(self, view):
 		pass
@@ -129,4 +190,3 @@ class NodejsCompleteListener(sublime_plugin.EventListener):
 # print(match.groups())
 # pm = re.findall(r'([a-zA-Z_0-9.]+\]?)', match.group(2))
 # print(pm)
-
