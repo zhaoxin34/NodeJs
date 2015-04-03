@@ -6,7 +6,6 @@ import sublime_plugin
 from os import path
 from collections import deque
 import pprint
-import html
 
 NODEDIR = path.dirname(__file__) + "/nodelib"
 NAME_ALIES_FILE = NODEDIR + "/name_alies.txt"
@@ -191,7 +190,46 @@ class NodejsCompleteListener(sublime_plugin.EventListener):
             # view.show_popup(
             #   decodeHtmlentities(nodejs.data[0]['doc']),
             #   flags=sublime.COOPERATE_WITH_AUTO_COMPLETE)
-            return [(snippets['trigger'], snippets['content']) for snippets in nodejs.data]
+            curline = view.substr(view.line(view.sel()[0])).strip(' ;')
+            # print("curline", curline)
+            func = re.match(r'\b([a-zA-Z0-9.]+)\b', curline)
+            return [
+                (snippets['trigger'], snippets['content'])
+                for snippets in nodejs.data if snippets['trigger'].startswith(func.group(1) if func else prefix)]
+
+    def on_modified_async(self, view):
+        """
+        in this method, it will show the document
+        """
+        global docShowed
+        if self.__isNodeJsView(view):
+            curline = view.substr(view.line(view.sel()[0])).strip(' ;')
+            # print("curline", curline)
+            # test match --- var xxx = abc (aa, bb)
+            func = re.match(r'(var\s+\w+\s*=\s*[a-zA-Z0-9.]+)', curline)
+            if func:
+                func = func.group(1)
+            else:
+                func = re.match(r'\b([a-zA-Z0-9.]+)\b', curline)
+                if func:
+                    func = func.group(1)
+                else:
+                    if view.is_popup_visible():
+                        view.hide_popup()
+                    return
+            params = re.match(r'\((.*)\)?', curline)
+            if params:
+                params = params.group(1)
+                func = "{0}({1}".format(func, params)
+                # print("params", params)
+            print('func', func)
+            if curline and curline.endswith(')'):
+                docs = [snippet['doc'] for snippet in nodejs.data if func in snippet['content']]
+                if docs:
+                    view.show_popup(
+                        decodeHtmlentities(docs[0]),
+                        flags=sublime.COOPERATE_WITH_AUTO_COMPLETE, max_width=600, max_height=400)
+                    docShowed = True
 
 
 def decodeHtmlentities(string):

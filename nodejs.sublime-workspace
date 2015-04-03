@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"if",
+				"if	If Condition"
+			],
+			[
+				"requ",
+				"requirehttp	nodejs.module"
+			],
+			[
 				"list",
 				"server.listen	http.Server.method"
 			],
@@ -96,10 +104,6 @@
 				"output.stdout	input-stdout"
 			],
 			[
-				"if",
-				"if.notin"
-			],
-			[
 				"filter",
 				"filter.mutate	filter-mutate"
 			],
@@ -119,31 +123,7 @@
 			"file": "nodejs.py",
 			"settings":
 			{
-				"buffer_size": 7282,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 55,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 669,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "nodejs.sublime-project",
-			"settings":
-			{
-				"buffer_size": 243,
+				"buffer_size": 8657,
 				"line_ending": "Unix"
 			}
 		}
@@ -155,10 +135,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 47.0,
-		"last_filter": "nodejs",
+		"height": 67.0,
+		"last_filter": "python",
 		"selected_items":
 		[
+			[
+				"python",
+				"Set Syntax: Python"
+			],
 			[
 				"nodejs",
 				"Set Syntax: NodeJs"
@@ -182,10 +166,6 @@
 			[
 				"uuid",
 				"Generate UUID v4"
-			],
-			[
-				"python",
-				"Set Syntax: Python"
 			],
 			[
 				"remove",
@@ -443,6 +423,39 @@
 		"height": 238.0,
 		"history":
 		[
+			"print(www)",
+			"www",
+			"www = re.match(r'abc', 'def')",
+			"func if func else 'abc'",
+			"\"sldfj ; \".strip(' ;')",
+			"\"sldfj;\".strip(' ;')",
+			"re.sub(r'.*\\((.*)', r'\\1', 'http.request(options, callback)')",
+			"re.sub(r'\\((.*)', r'\\1', 'http.request(options, callback)')",
+			"re.sub(r'(.*)', r'\\1', 'http.request(options, callback)')",
+			"re.sub(r'([a-zA-Z0-9.]+)', r'\\1', 'http.request(options, callback)')",
+			"re.sub(r'([a-zA-Z0-9.]+)', '\\1', 'http.request(options, callback)')",
+			"re.sub(r'\\b([a-zA-Z0-9.]+)\\b', '\\1', 'http.request(options, callback)')",
+			"re.sub(r'\\b([a-zA-Z0-9.]+)\\b', ",
+			"import re",
+			"view.substr(view.line(view.sel()[0])).strip()",
+			"view.substr(view.line(view.sel()[0])).stripe()",
+			"view.substr(view.line(view.sel()[0]))",
+			"view.line(view.sel()[0])",
+			"view.sel()[0].begin()",
+			"self.view.sel()[0].begin()",
+			"view.substr(sublime.Region(view.sel()[0].begin() - 7, view.sel()[0].end()))",
+			"aString",
+			"aString = view.substr(sublime.Region(view.sel()[0].begin() - 7, view.sel()[0].end()))",
+			"view.substr(sublime.Region(view.sel()[0].begin() - 7, view.sel()[0].end()))",
+			"view.substr(view.sel()[0].begin() - 1)",
+			"view.substr(view.sel()[0])",
+			"dir(sublime.Selection)",
+			"view.sel()",
+			"view.substr(view.sel())",
+			"view.substr(vew.sel())",
+			"view.sel()",
+			"view.line()",
+			"view.lien()",
 			"if view.substr(view.sel()[0].begin()) in ['(', ')']:",
 			"location = view.rowcol(view.sel()[0].begin())",
 			"location = (location[0], location[1] - 1)",
@@ -537,21 +550,25 @@
 	},
 	"expanded_folders":
 	[
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/NodeJs",
 		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/NodeJs/nodelib"
 	],
 	"file_history":
 	[
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/NodeJs/nodelib/child_process.json",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/NodeJs/nodelib/assert.json",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings",
 		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
 		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/Anaconda/Default (OSX).sublime-keymap",
-		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
 		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py",
 		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/NodeJs/nodelib/name_alies.txt",
-		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/NodeJs/mysign.py123",
 		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/NodeJs/nodelib/http.json",
 		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/NodeJs/nodelib/buffer.json",
 		"/Users/xinzhao/working/life/making/mynode/test.js",
-		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
 		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
 		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
 		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/NodeJs/nodejs.py",
@@ -560,7 +577,6 @@
 		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/NodeJs/nodejs.sublime-project",
 		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/MySignaturePlugin/example.py",
 		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/MySignaturePlugin/mysign.py123",
-		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings",
 		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/types.py",
 		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py",
 		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/python3.sublime-build",
@@ -648,6 +664,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"on_mjdified_async",
+			"switch",
 			"unichr",
 			"()\n",
 			"requre",
@@ -773,9 +791,7 @@
 			"sdlfjlsdkfj",
 			"5",
 			"ssdfl",
-			"seal_log_dir",
-			"alt",
-			"ctrl+space"
+			"seal_log_dir"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -802,7 +818,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7282,
+						"buffer_size": 8657,
 						"regions":
 						{
 							"bookmark_a":
@@ -811,8 +827,8 @@
 								"regions":
 								[
 									[
-										5981,
-										5981
+										5969,
+										5969
 									]
 								]
 							}
@@ -820,8 +836,8 @@
 						"selection":
 						[
 							[
-								2839,
-								2839
+								6888,
+								6888
 							]
 						],
 						"settings":
@@ -829,21 +845,46 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
@@ -854,308 +895,21 @@
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
 							],
 							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2604.0,
+						"translation.y": 2645.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 55,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								53,
-								53
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"syntax": "Packages/AAAPackageDev/Syntax Definitions/Sublime Settings.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 669,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								314,
-								314
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"syntax": "Packages/AAAPackageDev/Syntax Definitions/Sublime Settings.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "nodejs.sublime-project",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 243,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1347,15 +1101,15 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "snip",
+		"last_filter": "sni",
 		"selected_items":
 		[
 			[
-				"snip",
+				"sni",
 				"~/working/sublime/my-snippets.sublime-project"
 			],
 			[
-				"sni",
+				"snip",
 				"~/working/sublime/my-snippets.sublime-project"
 			],
 			[
@@ -1409,7 +1163,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 267.0,
 	"status_bar_visible": true,
 	"template_settings":
