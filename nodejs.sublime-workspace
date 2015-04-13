@@ -120,10 +120,10 @@
 	"buffers":
 	[
 		{
-			"file": "nodejs.py",
+			"file": "nodejs.tmLanguage",
 			"settings":
 			{
-				"buffer_size": 8657,
+				"buffer_size": 532,
 				"line_ending": "Unix"
 			}
 		}
@@ -135,17 +135,17 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 67.0,
-		"last_filter": "python",
+		"height": 47.0,
+		"last_filter": "nodejs",
 		"selected_items":
 		[
 			[
-				"python",
-				"Set Syntax: Python"
-			],
-			[
 				"nodejs",
 				"Set Syntax: NodeJs"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
 			],
 			[
 				"install",
@@ -423,6 +423,20 @@
 		"height": 238.0,
 		"history":
 		[
+			"print(a.groups())",
+			"print(a)",
+			"a = re.match(r'(var\\s+\\w+\\s*=\\s*[a-zA-Z0-9.]+)', \"var http = require('http');\")",
+			"print(a)",
+			"print(a.groups())",
+			"a = re.match(r'(var\\s+\\w+\\=)', \"var http = require('http');\")",
+			"print(a.groups())",
+			"print(a)",
+			"a = re.match(r'(var\\s+\\w+)', \"var http = require('http');\")",
+			"print(a)",
+			"a = re.match(r'(var\\s+\\w+=)', \"var http = require('http');\")",
+			"print(a)",
+			"a = re.match(r'(var\\s+\\w+=\\s*[a-zA-Z0-9.]+)', \"var http = require('http');\")",
+			"import re",
 			"print(www)",
 			"www",
 			"www = re.match(r'abc', 'def')",
@@ -555,6 +569,7 @@
 	],
 	"file_history":
 	[
+		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/NodeJs/nodejs.py",
 		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
 		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/NodeJs/nodelib/child_process.json",
 		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/NodeJs/nodelib/assert.json",
@@ -571,7 +586,6 @@
 		"/Users/xinzhao/working/life/making/mynode/test.js",
 		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
 		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
-		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/NodeJs/nodejs.py",
 		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/NodeJs/nodejs.tmLanguage",
 		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/xinzhao/Library/Application Support/Sublime Text 3/Packages/NodeJs/nodejs.sublime-project",
@@ -814,30 +828,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "nodejs.py",
-					"semi_transient": false,
+					"file": "nodejs.tmLanguage",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 8657,
+						"buffer_size": 532,
 						"regions":
 						{
-							"bookmark_a":
-							{
-								"flags": 144,
-								"regions":
-								[
-									[
-										5969,
-										5969
-									]
-								]
-							}
 						},
 						"selection":
 						[
 							[
-								6888,
-								6888
+								0,
+								0
 							]
 						],
 						"settings":
@@ -865,11 +868,6 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -880,16 +878,21 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
@@ -901,12 +904,11 @@
 								"bh_angle_close",
 								"bh_angle_content"
 							],
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2645.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1163,7 +1165,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 267.0,
 	"status_bar_visible": true,
 	"template_settings":
