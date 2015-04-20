@@ -9,7 +9,7 @@ import pprint
 
 NODEDIR = path.dirname(__file__) + "/nodelib"
 NAME_ALIES_FILE = NODEDIR + "/name_alies.txt"
-DEBUG = True
+DEBUG = False
 pp = pprint.PrettyPrinter(indent=4)
 
 
@@ -222,7 +222,7 @@ class NodejsCompleteListener(sublime_plugin.EventListener):
                 params = params.group(1)
                 func = "{0}({1}".format(func, params)
                 # print("params", params)
-            print('func', func)
+            # print('func', func)
             if curline and curline.endswith(')'):
                 docs = [snippet['doc'] for snippet in nodejs.data if func in snippet['content']]
                 if docs:
